@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/b_bold_inside.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/btn_default_white_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/btn_hovered_white_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/btn_selected_white_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/btn_selector.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/circle_selected_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/circle_selector_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/circle_stroke_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/drawing_selector.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/empty_board.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/gallery.xml" value="0.149" />
+        <entry key="app/src/main/res/drawable/hand.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back_ios.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_radio_checked.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_radio_unchecked.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_redo.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_redo_disabled.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_undo.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/ic_undo_disabled.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/paint.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/redo_selector.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/rounded_grey_400_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/rounded_stroke_white_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/rounded_white_bg.xml" value="0.3365" />
+        <entry key="app/src/main/res/drawable/undo_selector.xml" value="0.3375" />
+        <entry key="app/src/main/res/drawable/white_with_stroke_bg.xml" value="0.3375" />
+        <entry key="app/src/main/res/font/aladin.xml" value="0.365625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/layout/drawing_item.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/layout/fragment_choose_drawing.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_drawing.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_saved_drawings.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

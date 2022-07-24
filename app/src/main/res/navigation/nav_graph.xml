@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/DrawingFragment"
+        android:name="com.mohamedbenrejeb.drawapplication.ui.DrawingFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_drawing">
+        <argument
+            android:name="drawingId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+        <argument
+            android:name="filePath"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_DrawingFragment_to_savedDrawingsFragment"
+            app:destination="@id/savedDrawingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mohamedbenrejeb.drawapplication.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_FirstFragment"
+            app:destination="@id/DrawingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_chooseDrawingFragment"
+            app:destination="@id/chooseDrawingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseDrawingFragment"
+        android:name="com.mohamedbenrejeb.drawapplication.ui.ChooseDrawingFragment"
+        android:label="fragment_choose_drawing"
+        tools:layout="@layout/fragment_choose_drawing" >
+        <action
+            android:id="@+id/action_chooseDrawingFragment_to_DrawingFragment"
+            app:destination="@id/DrawingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <argument
+            android:name="drawingType"
+            app:argType="com.mohamedbenrejeb.drawapplication.models.DrawingType" />
+        <action
+            android:id="@+id/action_chooseDrawingFragment_to_savedDrawingsFragment"
+            app:destination="@id/savedDrawingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/savedDrawingsFragment"
+        android:name="com.mohamedbenrejeb.drawapplication.ui.SavedDrawingsFragment"
+        android:label="fragment_saved_drawings"
+        tools:layout="@layout/fragment_saved_drawings" >
+        <action
+            android:id="@+id/action_savedDrawingsFragment_to_DrawingFragment"
+            app:destination="@id/DrawingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+</navigation>
